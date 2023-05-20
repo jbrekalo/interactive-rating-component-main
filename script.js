@@ -31,7 +31,6 @@ submitButton.addEventListener("click", function (e) {
     mainContainer.classList.add("hidden");
     thankyouContainer.classList.remove("hidden");
 
-    ratingInfo.textContent = `You selected ${ratingValue} out of 5`;
     ratingInfo.innerHTML = `<p>You selected ${ratingValue} out of 5</p>`;
   }
 });
