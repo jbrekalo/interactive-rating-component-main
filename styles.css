@@ -76,6 +76,7 @@ body {
 .main-container {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   max-width: 40rem;
   height: 40rem;
   padding: 3.2rem;
@@ -132,6 +133,10 @@ body {
   background-color: #262e38;
 }
 
+.rating--selected {
+  background-color: #7c8798;
+}
+
 .rating:hover {
   background-color: #fb7413;
   cursor: pointer;
@@ -179,10 +184,9 @@ body {
 
 .rating-info {
   display: flex;
-  align-items: center;
   justify-content: center;
-  width: 18rem;
-  height: 3.2rem;
+  align-items: center;
+  padding: 0.7rem 2rem 0.5rem 2rem;
   border-radius: 1.5rem;
   font-size: 1.5rem;
   font-weight: 200;
@@ -209,4 +213,14 @@ body {
   font-weight: 200;
   text-align: center;
   line-height: 2.4rem;
+}
+
+.hidden {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    max-width: 375px;
+  }
 }
