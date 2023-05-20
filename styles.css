@@ -71,6 +71,7 @@ body {
   font-family: "Overpass", sans-serif;
   height: 100vh;
   max-width: 1440px;
+  margin: auto;
 }
 
 .main-container {
