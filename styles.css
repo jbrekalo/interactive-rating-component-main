@@ -96,6 +96,10 @@ body {
   background-color: #262e38;
 }
 
+.star-icon {
+  width: 1.6rem;
+}
+
 .text-container {
   display: flex;
   flex-direction: column;
@@ -129,6 +133,7 @@ body {
   height: 4.5rem;
   border: none;
   border-radius: 50%;
+  font-size: 1.5rem;
   color: #fff;
   background-color: #262e38;
 }
@@ -220,6 +225,10 @@ body {
 }
 
 @media screen and (max-width: 800px) {
+  html {
+    font-size: 55%;
+  }
+
   body {
     max-width: 375px;
   }
